@@ -1,0 +1,110 @@
+(footprint "MP148EN1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8c1a36a7-7ebc-4b21-b87f-508ab74c43ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MP148EN1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9dbdbcac-7a80-495e-acac-c7056b70d08b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed18e085-efe8-4fa0-b2d6-5c8ef9ad515a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "abd47171-991b-4c43-84fa-67f13d0a050e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -11.25 -8.5)
+		(end 11.25 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a0f149c7-0dde-4af4-8304-af541893eef1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ca2c9f36-a4b1-4576-9912-13a2b93ded8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "GND" smd oval
+		(at -10.5 -5.5)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fdc937ea-804e-4ad5-8847-9518294940cc")
+	)
+	(pad "GND" smd oval
+		(at 10.5 -5.5)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c6d5ae9d-9f2b-4d33-a443-a6a09f9ae0fb")
+	)
+	(pad "V_IN" smd roundrect
+		(at -10.5 5.5)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7c12ec08-a064-4f81-9a9b-31bd8423521c")
+	)
+	(pad "V_OUT" thru_hole roundrect
+		(at 10.5 5.5)
+		(size 3 5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "e6ab3654-a8ad-496f-81de-594667bc0a07")
+	)
+	(embedded_fonts no)
+)

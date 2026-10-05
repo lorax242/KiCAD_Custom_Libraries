@@ -1,0 +1,108 @@
+(footprint "MP148EN1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "de6ff187-a7bd-42b8-bc80-1002cac688e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MP148EN1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d52ae8da-5bd1-4b9e-b23a-23bb9f2b855b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f7b0e55-8bb7-41c6-b154-2b72e7176163")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a64a45d9-6cb8-40d5-aca1-f4c77ac249ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -11.25 -8.5)
+		(end 11.25 8.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "51690543-97a2-4ab4-a045-2c814821faba")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4ae9c776-1496-4404-8591-321509eda02d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd oval
+		(at -10.5 -5.5)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ccfa7a72-04f7-4fe0-b9be-a7e38bdd27a4")
+	)
+	(pad "2" smd oval
+		(at 10.5 -5.5)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1d500bb-5395-41d3-bfcb-bc51cbd7ad97")
+	)
+	(pad "3" smd roundrect
+		(at -10.5 5.5)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "31cbd443-5719-49b8-9c0e-63e9edadaa19")
+	)
+	(pad "4" smd roundrect
+		(at 10.5 5.5)
+		(size 3 5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e4fd988d-02d7-4547-ba69-f296ca247bbd")
+	)
+	(embedded_fonts no)
+)
